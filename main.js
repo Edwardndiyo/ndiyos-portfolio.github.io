@@ -247,27 +247,29 @@ let swiperPortfolio = new Swiper ('.portfolio__container', {
 
 //  testing modal for demo button
 
-const modalButtons = document.querySelectorAll('.portfolio__button');
-const modalClose = document.querySelector('.portfolio__modal-close');
-const modalOverlay = document.querySelector('.portfolio__modal-overlay');
-const Modal = document.querySelector('.portfolio__modal');
 
-modalButtons.forEach((button) => {
-  button.addEventListener('click', () => {
-    Modal.classList.add('portfolio__modal--active');
-    modalOverlay.classList.add('portfolio__modal-overlay--active');
-  });
-});
 
-modalClose.addEventListener('click', () => {
-  Modal.classList.remove('portfolio__modal--active');
-  modalOverlay.classList.remove('portfolio__modal-overlay--active');
-});
+// const modalButtons = document.querySelectorAll('.portfolio__button');
+// const modalClose = document.querySelector('.portfolio__modal-close');
+// const modalOverlay = document.querySelector('.portfolio__modal-overlay');
+// const Modal = document.querySelector('.portfolio__modal');
 
-modalOverlay.addEventListener('click', () => {
-  Modal.classList.remove('portfolio__modal--active');
-  modalOverlay.classList.remove('portfolio__modal-overlay--active');
-});
+// modalButtons.forEach((button) => {
+//   button.addEventListener('click', () => {
+//     Modal.classList.add('portfolio__modal--active');
+//     modalOverlay.classList.add('portfolio__modal-overlay--active');
+//   });
+// });
+
+// modalClose.addEventListener('click', () => {
+//   Modal.classList.remove('portfolio__modal--active');
+//   modalOverlay.classList.remove('portfolio__modal-overlay--active');
+// });
+
+// modalOverlay.addEventListener('click', () => {
+//   Modal.classList.remove('portfolio__modal--active');
+//   modalOverlay.classList.remove('portfolio__modal-overlay--active');
+// });
 
 
 

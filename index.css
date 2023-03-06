@@ -891,7 +891,7 @@ body.dark-theme{
 /* portfolio modal test */
 
 
-
+/* 
 .portfolio__modal-overlay {
     position: fixed;
     top: 0;
@@ -964,7 +964,7 @@ body.dark-theme{
 .portfolio__modal-services{
     grid-template-columns: max-content;
         justify-content: space-evenly;
-}
+} */
  
 
 
